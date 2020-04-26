@@ -1,6 +1,8 @@
 {
     "params":{
-              "texting":[]
+              "gender":["male","female"],
+              "category":["food","travel","shopping"],
+              "default_category":["food","travel","shopping"]
               
     }
 }
