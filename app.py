@@ -68,7 +68,7 @@ def sendotp():    #function used to send otp
         'senderid':senderId
         }
         return requests.post(reqUrl, req_params)
-    response = sendPostRequest(URL, '2910QIWQW9WJL1K0FYE75D9ZUURASSWL', 'IGZIT5E9TOBIS47H', 'stage', mobile, 'TUSHARG', otp )
+    response = sendPostRequest(URL, 'enter your api key ', 'enter you secret key', 'stage', mobile, 'TUSHARG', otp )
     session['logged_in'] = True
     session['otp'] = otp
     return jsonify({"message":"msg sent"}),200
